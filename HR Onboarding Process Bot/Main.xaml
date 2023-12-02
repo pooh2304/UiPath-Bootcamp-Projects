@@ -1,0 +1,401 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="797.7142857142857,5068.571428571428" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Generate Employee ID and Employee Email ID" sap:VirtualizedContainerService.HintSize="608,5003.428571428572" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="firstName" />
+      <Variable x:TypeArguments="x:String" Name="lastName" />
+      <Variable x:TypeArguments="x:String" Name="dateOfBirth" />
+      <Variable x:TypeArguments="x:String" Name="designation" />
+      <Variable x:TypeArguments="x:String" Name="mobileNumber" />
+      <Variable x:TypeArguments="x:String" Name="gender" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Open HR On-Boarding Process Form - Website" sap:VirtualizedContainerService.HintSize="546.2857142857143,4893.142857142857" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5ada39a6-098b-42bb-93cf-6e9c050e9fa9" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Get Employee Data " sap:VirtualizedContainerService.HintSize="512,4673.142857142857" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Input Employee Details" sap:VirtualizedContainerService.HintSize="450.2857142857143,1861.7142857142858" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input &quot;First Name&quot;" sap:VirtualizedContainerService.HintSize="388.57142857142856,248.57142857142858" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Enter First Name" Title="Input">
+                <ui:InputDialog.Result>
+                  <OutArgument x:TypeArguments="x:String">[firstName]</OutArgument>
+                </ui:InputDialog.Result>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:InputDialog>
+              <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input &quot;Last Name&quot;" sap:VirtualizedContainerService.HintSize="388.57142857142856,248.57142857142858" sap2010:WorkflowViewState.IdRef="InputDialog_3" IsPassword="False" Label="Enter Last Name" Title="Input">
+                <ui:InputDialog.Result>
+                  <OutArgument x:TypeArguments="x:String">[lastName]</OutArgument>
+                </ui:InputDialog.Result>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:InputDialog>
+              <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input &quot;DOB&quot;" sap:VirtualizedContainerService.HintSize="388.57142857142856,248.57142857142858" sap2010:WorkflowViewState.IdRef="InputDialog_4" IsPassword="False" Label="Enter DOB (DD/MM/YYYY)" Title="Input">
+                <ui:InputDialog.Result>
+                  <OutArgument x:TypeArguments="x:String">[dateOfBirth]</OutArgument>
+                </ui:InputDialog.Result>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:InputDialog>
+              <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input &quot;Designation&quot;" sap:VirtualizedContainerService.HintSize="388.57142857142856,248.57142857142858" sap2010:WorkflowViewState.IdRef="InputDialog_5" IsPassword="False" Label="Enter Designation" Title="Input">
+                <ui:InputDialog.Result>
+                  <OutArgument x:TypeArguments="x:String">[designation]</OutArgument>
+                </ui:InputDialog.Result>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:InputDialog>
+              <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input &quot;Mobile Number&quot;" sap:VirtualizedContainerService.HintSize="388.57142857142856,248.57142857142858" sap2010:WorkflowViewState.IdRef="InputDialog_6" IsPassword="False" Label="Enter Mobile Number" Title="Input">
+                <ui:InputDialog.Result>
+                  <OutArgument x:TypeArguments="x:String">[mobileNumber]</OutArgument>
+                </ui:InputDialog.Result>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:InputDialog>
+              <ui:InputDialog OptionsString="{x:Null}" DisplayName="Input &quot;Gender&quot;" sap:VirtualizedContainerService.HintSize="388.57142857142856,304" sap2010:WorkflowViewState.IdRef="InputDialog_7" IsPassword="False" Label="Enter Gender" Options="[{&quot;Male&quot;,&quot;Female&quot;}]" Title="Input">
+                <ui:InputDialog.Result>
+                  <OutArgument x:TypeArguments="x:String">[gender]</OutArgument>
+                </ui:InputDialog.Result>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:InputDialog>
+            </Sequence>
+            <Sequence DisplayName="Enter Employee Details to the Form" sap:VirtualizedContainerService.HintSize="450.2857142857143,1882.2857142857142" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Enter &quot;First Name&quot;" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388.57142857142856,222.85714285714286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="5ada39a6-098b-42bb-93cf-6e9c050e9fa9" Text="[firstName]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://excelcult.com/hr-on-boarding-process-form/" CvElementArea="899, 566, 348, 59" CvType="InputBox" DesignTimeRectangle="905, 571, 339, 52" DesignTimeScaleFactor="1.75" ElementType="InputBox" FriendlyName="'INPUT fname'" FullSelectorArgument="&lt;webctrl id='fname' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='fname' tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="63fd9bff-1fcf-4b5f-950b-46b93848c6c4" InformativeScreenshot="33cad8f7f350c7af1f1c5f8f78b4b547.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='HR On-Boarding Process Form - ExcelCult' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="764, 582, 132, 24" CvTextArgument="First Name*" CvType="Text" DesignTimeRectangle="680, 577, 226, 39" ElementType="Text" FriendlyName="'First Name*'" FullSelectorArgument="&lt;webctrl aaname='First Name*' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='First Name*' tag='LABEL' type='' class='' check:innerText='First Name*' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Enter &quot;Last Name&quot;" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388.57142857142856,222.85714285714286" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="5ada39a6-098b-42bb-93cf-6e9c050e9fa9" Text="[lastName]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://excelcult.com/hr-on-boarding-process-form/" CvElementArea="1465, 565, 347, 59" CvType="InputBox" DesignTimeRectangle="1470, 571, 339, 52" DesignTimeScaleFactor="1.75" ElementType="InputBox" FriendlyName="'INPUT lname'" FullSelectorArgument="&lt;webctrl id='lname' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='lname' tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="979db06d-097c-4397-b65f-1aa864fd7773" InformativeScreenshot="4c73a5469d550b05386939528c6ec26f.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='HR On-Boarding Process Form - ExcelCult' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="1331, 582, 130, 24" CvTextArgument="Last Name*" CvType="Text" DesignTimeRectangle="1244, 577, 226, 39" ElementType="Text" FriendlyName="'Last Name*'" FullSelectorArgument="&lt;webctrl aaname='Last Name*' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Last Name*' tag='LABEL' type='' class='' check:innerText='Last Name*' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Enter &quot;DOB&quot;" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388.57142857142856,222.85714285714286" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="5ada39a6-098b-42bb-93cf-6e9c050e9fa9" Text="[dateOfBirth]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://excelcult.com/hr-on-boarding-process-form/" CvElementArea="900, 635, 348, 59" CvType="InputBox" DesignTimeRectangle="905, 640, 339, 52" DesignTimeScaleFactor="1.75" ElementType="InputBox" FriendlyName="'INPUT dob'" FullSelectorArgument="&lt;webctrl id='dob' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='dob' tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="b3e72750-e030-479d-9984-6e45f1f91d3b" InformativeScreenshot="ac3b4c876b3ff30b225b8e603a85cbb6.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='HR On-Boarding Process Form - ExcelCult' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="836, 652, 61, 22" CvTextArgument="DOB*" CvType="Text" DesignTimeRectangle="680, 646, 226, 39" ElementType="Text" FriendlyName="'DOB*'" FullSelectorArgument="&lt;webctrl aaname='DOB*' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='DOB*' tag='LABEL' type='' class='' check:innerText='DOB*' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOYAAAArCAYAAABsHPTRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAGdYAABnWARjRyu0AAAP8SURBVHhe7dvBa9NgHMZx/9pSKINQAmKQVQiDsEOFMCiyXIbYQ3tQwR7WgcqoiB5yGThBeslhIhUxSC6F8vgmedNlbZq+04o/9PlAYL57k/awr3mTpndARCJ8+fpd/wQwTCIhGCaRQAyTSCCGSSQQwyQSiGESCcQwiQRimEQCMUwigRgmkUAMk0gghkkkEMMkYSbwGw00qrY9C85BgPGHGeZ6dr05ZuEz9A4cWE19jGYL1j0Xwekl4oWetioawll97dLWajtwe89w8U3P3yAaONl8/40euAWGScLUhFneHvRxEetdqiwijA6s6n2Lrd3F+LOeX7YlzOXWtFR0m98Ew6R/yHWYa3/Q8wTT1wE6lg6j7WNS2UWE4f51PN4gxNUPfY5N4pvHsCqOsQzTwTDSYyXJ5xAnxfH31P6J/sUiQVL8rFSFOS9PqMEwSZiaMAuxmqPDso7eYfVPffbCzaNRYfU/bVj0lo9xHOpBbUuYmXgML5vTQPdcj73x8+Pt+xi+nSJ6mr4P9R4+RgifB3DvttS/XYy+6vk1GCYJYxBmKgxgZfNsFZ8ey0zRt/P97ceXeqxa8rKbzVuLxSTM9Kx8P38dZ5BPunrdg3uvZvmsrm/tgy5GN95vNYZJwhiGWQrDfjLVY8qHEx1sXVTaIkRvLz+Gd1Zeg5qEeYmTdr5vEeZSuuQ+92Fnx1DbXbXcncZINt1sqsAwSRjTMFUaj/XZyR1hpseSMy8f2wuwskCtkGB8mL9Wq7ycNQlT/QeQh7d6xk7FmDxMl60WHH0G9c7q7lStY5gkjHmYxc2Vxv2hOn9uHqsz8fPXavgTPaLUhblIEL3twy2uT9V+a/eOBp38d2ns6lq2m56Vm53tZ/AShknCmIdZ3GxpNNRSUQ/tNsy6zYI7uFiLMt23k/7e8vFOr47j8y5a6di+2XtKMUwSRlaYrbYN2y5txccs6dZ0ELxfTXOO6XMfwY3PN2OMjzwMaz94vYlhkjDCl7KpRYyLgatvMlkItl/M3hrDJGHMwwyP0xssau7fuPmjhI/WX39XGCYJYxpm6fPKv/JxiaKuHbMwm+p6Ug/tCsMkYczCTNT1ZXZD5XceMFge41ceMCidnUvXuLvCMEkYgzC/qTkmj+Q1O0aP5LUerSx6jcKMl8tgLmXpP1ATZnKFy9MenOIrXBsfYp9h5Oo5xUPsRb36c0hPP7XzKw+xI4nw6sjO91fbbR8eMMEwSZjrMOs2yxtu/9qX94e/9qU2+zhc/yxzBxgmCVMTpmWjc9jH+KNpCn/mi9LLL2wbv4/bY5hEAjFMIoEYJpFADJNIIIZJJBDDJBKIYRIJxDCJBGKYRAIxTCKBGCaRQAyTSKDrMIGf6YhXrvpALl8AAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Enter &quot;Designation&quot;" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388.57142857142856,222.85714285714286" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="5ada39a6-098b-42bb-93cf-6e9c050e9fa9" Text="[designation]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://excelcult.com/hr-on-boarding-process-form/" CvElementArea="1465, 635, 347, 59" CvType="InputBox" DesignTimeRectangle="1470, 640, 339, 52" DesignTimeScaleFactor="1.75" ElementType="InputBox" FriendlyName="'INPUT designation'" FullSelectorArgument="&lt;webctrl id='designation' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='designation' tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="7792f844-c66f-4d29-b0a1-3f8c5782e681" InformativeScreenshot="ac795d098ae6477c53bdf8c771f55b89.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='HR On-Boarding Process Form - ExcelCult' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="1319, 652, 141, 28" CvTextArgument="Designation*" CvType="Text" DesignTimeRectangle="1244, 646, 226, 39" ElementType="Text" FriendlyName="'Designation*'" FullSelectorArgument="&lt;webctrl aaname='Designation*' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Designation*' tag='LABEL' type='' class='' check:innerText='Designation*' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Enter &quot;Mobile Number&quot;" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388.57142857142856,222.85714285714286" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="5ada39a6-098b-42bb-93cf-6e9c050e9fa9" Text="[mobileNumber]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://excelcult.com/hr-on-boarding-process-form/" CvElementArea="899, 707, 349, 59" CvType="InputBox" DesignTimeRectangle="905, 713, 339, 52" DesignTimeScaleFactor="1.75" ElementType="InputBox" FriendlyName="'INPUT mobile'" FullSelectorArgument="&lt;webctrl id='mobile' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='mobile' tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="384e6de2-5763-4161-9359-5208096676a4" InformativeScreenshot="d9df673a01c6ee4f3da305f4b32a97f1.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='HR On-Boarding Process Form - ExcelCult' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="717, 724, 179, 24" CvTextArgument="Mobile Number*" CvType="Text" DesignTimeRectangle="680, 719, 226, 39" ElementType="Text" FriendlyName="'Mobile Number*'" FullSelectorArgument="&lt;webctrl aaname='Mobile Number*' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Mobile Number*' tag='LABEL' type='' class='' check:innerText='Mobile Number*' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NTypeInto>
+              <If Condition="[gender.Equals(&quot;Male&quot;)]" sap:VirtualizedContainerService.HintSize="388.57142857142856,54.285714285714285" sap2010:WorkflowViewState.IdRef="If_1">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If.Then>
+                  <Sequence sap:VirtualizedContainerService.HintSize="375.42857142857144,246.28571428571428" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'unchecked'" sap:VirtualizedContainerService.HintSize="334.2857142857143,159.42857142857142" sap2010:WorkflowViewState.IdRef="NCheck_1" ScopeIdentifier="5ada39a6-098b-42bb-93cf-6e9c050e9fa9" Version="V3">
+                      <uix:NCheck.Target>
+                        <uix:TargetAnchorable BrowserURL="https://excelcult.com/hr-on-boarding-process-form/" DesignTimeRectangle="1460, 728, 23, 23" DesignTimeScaleFactor="1.75" ElementType="RadioButton" FriendlyName="'INPUT male'" FullSelectorArgument="&lt;webctrl id='male' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='male' tag='INPUT' type='radio' class='' aaname='Male' /&gt;" Guid="3c854843-9262-4fd7-a5eb-bb8ffc5673ab" InformativeScreenshot="6c3e9b1ff807ae2c92e6666cb3413e51.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='HR On-Boarding Process Form - ExcelCult' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArea="1487, 726, 56, 22" CvTextArgument="Male" CvType="Text" DesignTimeRectangle="1488, 725, 62, 29" ElementType="Text" FriendlyName="'unchecked'" FullSelectorArgument="&lt;webctrl class='radio' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl class='radio' tag='LABEL' type='' aaname='Male' check:innerText='Male' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEIAAAAhCAYAAABtNH0cAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAGdYAABnWARjRyu0AAANkSURBVGhD7ZfvS9tAHIf314ZCEYIExCBGCIIIVsibvLAMyjCC9UUF98IOrIzKGEhhFPTFECRghxQGeVEYhfLZXe6bX20uuWwMpMsDh3g/0suTy+cu71ATUosgahFELYKoRRC1CKIWQbxhET66Oxo0TYN57lPdv2NFhH9uhj8elr0eplRfymIEd4PGseLcUf0f85ZEaAa879RQwuymlRq3diI06B8eqaWIKXp7yRhe1kfERhPN8K+L0YIaZfhdmKEANoZej/UR4XTQ2RQTad3MqDWfp1NDjDnqoL29diKGyQ0WhWYckk2490M4vL9ExOx5AO/Qgp4KVX3bRvt2gjn1SSgRsQjweN2GvdWMr9XctOBcjhGUreAc5CJ2uvBfe7DCHzHRlTyUOCQND0+Qi/AvLNGPl4YOwzCyQpj4gPoKCkQEY3R2k7Ganr2WtsvmXlFGsQjMMDgSFzdOn6hHmhn6h6LduuRrRiJi1IYe1utoXWeffvDZoTa+oqgyRCYiiH9T2/Mw/knVjPlLHy1dtOknI6pVo0QE496Vh2a8Yiz0XnlFvojpFw+u68K9GDF1yyQyszuUREQ8HwfDvOgak/QGa6+wKspFsAXvGWJCy6GZhOSAbrA4I2QMHTGG51JCvojRicgE+bYezUFH54GqFFAQkbrhw37yRDMhSXWzPg7CSeSJmGP60Ed738y+z+lSKiKpUylVHoaSiNVXgHHniH5hSBLxeWJpEosJ+se66M8KT/cD/qpQsWnFVRLBApIHblFpZzKnGDURbB1kQzP5X4QkIRExvbJp8i30X1Y3SvVXI6mzr5S/gpRQFMFIh+ZLzgrh5IqY4qMt6syzzBVjqmTE8Div79+jLiIVmsbWckgSuSJSN5QnYuHDi5a7gojk486E90yVy/zwMVldeIVUEJFqC8vyvs+QvBpR0msNC53RlM4RIjydreh6rCiI4OK60WFKt9H9lj6GzTG5dWE2WNsmW7m/qFqBSiKS0GQlHZIRsrAM2JZGB52Vwk6ZZnRMTu9KMhEcfj36DoquYRg6mlwA/d/6NKHOalQTkQrJlclxZCI48wkG720Y0dbJBey3MWDhGYdp5tBWIILDvjXGl2zH2U52I21Dh+V08TUnkMtYEfG/UosgahFELYKoRRC1CKIWEQL8Bo7PYdxEY1qTAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NCheck.Target>
+                    </uix:NCheck>
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence sap:VirtualizedContainerService.HintSize="375.42857142857144,246.28571428571428" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'unchecked'" sap:VirtualizedContainerService.HintSize="334.2857142857143,159.42857142857142" sap2010:WorkflowViewState.IdRef="NCheck_2" ScopeIdentifier="5ada39a6-098b-42bb-93cf-6e9c050e9fa9" Version="V3">
+                      <uix:NCheck.Target>
+                        <uix:TargetAnchorable BrowserURL="https://excelcult.com/hr-on-boarding-process-form/" DesignTimeRectangle="1557, 728, 23, 23" DesignTimeScaleFactor="1.75" ElementType="RadioButton" FriendlyName="'INPUT female'" FullSelectorArgument="&lt;webctrl id='female' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='female' tag='INPUT' type='radio' class='' aaname='Female' /&gt;" Guid="4c8270d2-ed67-46dc-98d2-be6be78f8a14" InformativeScreenshot="b8289d1b4b4b1d07e043cba2640513b1.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='HR On-Boarding Process Form - ExcelCult' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArea="1583, 726, 84, 24" CvTextArgument="Female" CvType="Text" DesignTimeRectangle="1586, 725, 89, 29" ElementType="Text" FriendlyName="'unchecked'" FullSelectorArgument="&lt;webctrl aaname='Female' class='radio' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Female' class='radio' tag='LABEL' type='' check:innerText='Female' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF0AAAAhCAYAAAC7kad5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAGdYAABnWARjRyu0AAAPNSURBVGhD7Zjva9pAGMf314oQhEMCpVK0EAphMAt5I6NhIKN5Ud+sMF/UwizDvugoQhHmq0ERtAzHIC+EIch3d7lLcrGJJmiaddwXnhc+98PnPnfec49voPTiUtALkIJegBT0AqSgFyAFvQAp6AVIQb+1UCqVqFkYCFfeikKfdFDzAkhhRx1MxLBXLQW9AP070Gvo/BdEU0hBL0AKegF61dBXLsZXNowDTSyiBK3agHU5grsSfXz5C2V5YTnD3bmJGuFjmJG6hU8jl/dd0fYLCw25/dCE823G29e1WmBy48CsE2hlMaZMUDux0Z8uRSdJ26Cz+J59vwH7ZoaY2VJpP9DdEdr1MKgS0UEq0uc6hSuD9xdaNegmSf0iRmB/vYOd2F6CcTUXEwqtJugcS31oHLouwadzWrdiM31tgv7UQ1OCrVXpuoK5KHxrgLXZUmkP0F303opAjh2Mfgs31XIaBk3OhsJLFSyU2oEVOYHyGM/KDbSH8/BULcZw/A2u2JBmxfCMcD9poiefavorHFiirdLCMO4ArENfjdHW+feQ0x5m0nTuQxsNAd/4vLbxKZQAfYvRHQ5034LGfBUa9EL4ZI1sENZepu3+YoOFmujFHRVpU8zrmA6PTszhmNNrqoVWq4XOMCaQRQ+mN4ag/V34mBKgzy8b3J/wNHavzI3tm7Qz9OEZv8PJx7HwrGsAyxsnLTbpdPna+ovz58zyi/THlOgVI1xMsbHM0TV4X/M67iRRBTHSg5PQJUk7Xi/0Dj3iwaWxYLF5Ql/OeUI/lO/yqG2HHm7Qdsuy8Vz7g+4lrc1m34theUFnia8q4ilr9BVketcNNwO6NyYbdJY849YSmonuVAxLqb1Bz5RQcoEeXgnkXTTxcYUg00PXYMuZek/aEToN75QvJJJctykP6L+6MITPeRS+iLJAn8A55H1rFylBZNDO0BdfmiLopMVSPU2iJy8P6NKY2DiCF08a6MCPc537K00MEh7j7nTyvPBLoZ2hewWJ/24mBjoPcoRLzG5aqLGEVqXv4z/CnQd0+mK3/YKs3sbwp9hlL7Fa0KWkmgY6XPodfr2wVkuwd//owuSFktFFQm2cqN2hM7EA/QTGjJbdkUqQfm5eS6HlAp2GQef1aoI4q9agi02JPAM3xfLYCYogzyp8XcFnWrg5/t8VGbQf6Exs9y9b3lNNDrJhdXC3/p9HTtCZltM+7BM93HBSg/GhT6+3MNFq7+Oq44RYljP0z000quF/SnzOHsZS9Z1FUehKLyIFvQAp6AVIQS9ACnoBUtALkIL+4gL+Au94imAfUP1GAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NCheck.Target>
+                    </uix:NCheck>
+                  </Sequence>
+                </If.Else>
+              </If>
+              <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'Privacy Policy'" sap:VirtualizedContainerService.HintSize="388.57142857142856,159.42857142857142" sap2010:WorkflowViewState.IdRef="NCheck_3" ScopeIdentifier="5ada39a6-098b-42bb-93cf-6e9c050e9fa9" Version="V3">
+                <uix:NCheck.Target>
+                  <uix:TargetAnchorable BrowserURL="https://excelcult.com/hr-on-boarding-process-form/" CvElementArea="676, 961, 28, 27" CvType="CheckBox" DesignTimeRectangle="680, 965, 23, 23" DesignTimeScaleFactor="1.75" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' class='' aaname='' /&gt;" Guid="2b3b6bba-db24-485c-8b92-72bdd291f12e" InformativeScreenshot="939b9ad89a3b372e54d283d20bbee70e.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='HR On-Boarding Process Form - ExcelCult' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="851, 962, 291, 28" CvTextArgument="Privacy Policy for W3Docs." CvType="Text" DesignTimeRectangle="853, 962, 291, 29" ElementType="Text" FriendlyName="'Privacy Policy'" FullSelectorArgument="&lt;webctrl parentid='post-2245' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='post-2245' tag='A' type='' class='' aaname='Privacy Policy for W3Docs.' check:innerText='Privacy Policy for W3Docs.' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NCheck.Target>
+              </uix:NCheck>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="388.57142857142856,159.42857142857142" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5ada39a6-098b-42bb-93cf-6e9c050e9fa9" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://excelcult.com/hr-on-boarding-process-form/" CvElementArea="650, 1042, 1181, 79" CvTextArea="1184, 1071, 113, 24" CvTextArgument="SUBMIT" CvType="Button" DesignTimeRectangle="658, 1046, 1173, 74" DesignTimeScaleFactor="1.75" ElementType="Button" FriendlyName="'Submit'" FullSelectorArgument="&lt;webctrl aaname='Submit' tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Submit' tag='BUTTON' type='submit' class='' check:innerText='SUBMIT' /&gt;" Guid="30717945-57d2-4885-983f-869309385382" InformativeScreenshot="636afccb4de7f8cf222336396dc77940.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='HR On-Boarding Process Form - ExcelCult' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="671, 855, 303, 38" CvTextArgument="Terms and Mailing" CvType="Text" DesignTimeRectangle="680, 853, 292, 42" ElementType="Text" FriendlyName="'Terms and Mailing'" FullSelectorArgument="&lt;webctrl idx='2' tag='H3' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='H3' class='' aaname='Terms and Mailing' check:innerText='Terms and Mailing' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+            </Sequence>
+            <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="450.2857142857143,93.14285714285714" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <Sequence DisplayName="Get Employee Details" sap:VirtualizedContainerService.HintSize="450.2857142857143,601.1428571428571" sap2010:WorkflowViewState.IdRef="Sequence_7">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="employeeID" />
+                <Variable x:TypeArguments="x:String" Name="employeeEmailID" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NGetText DisplayName="Get 'Employee ID*'" sap:VirtualizedContainerService.HintSize="388.57142857142856,159.42857142857142" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="5ada39a6-098b-42bb-93cf-6e9c050e9fa9" TextString="[employeeID]" Version="V3">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable BrowserURL="https://excelcult.com/hr-on-boarding-process-form/" CvElementArea="899, 489, 348, 56" CvType="InputBox" DesignTimeRectangle="905, 492, 339, 52" DesignTimeScaleFactor="1.75" ElementType="InputBox" FriendlyName="'INPUT EmployeeId'" FullSelectorArgument="&lt;webctrl id='EmployeeId' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='EmployeeId' tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="762c8dad-2db4-4f76-b400-c3269e49959c" InformativeScreenshot="79efdbe6a8a72bdc2911d04208e416a6.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='HR On-Boarding Process Form - ExcelCult' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="752, 504, 145, 28" CvTextArgument="Employee Id*" CvType="Text" DesignTimeRectangle="680, 498, 226, 39" ElementType="Text" FriendlyName="'Employee Id*'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Employee Id*' check:innerText='Employee Id*' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NGetText.Target>
+              </uix:NGetText>
+              <uix:NGetText DisplayName="Get 'Employee Mail ID*'" sap:VirtualizedContainerService.HintSize="388.57142857142856,159.42857142857142" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="5ada39a6-098b-42bb-93cf-6e9c050e9fa9" TextString="[employeeEmailID]" Version="V3">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable BrowserURL="https://excelcult.com/hr-on-boarding-process-form/" CvElementArea="1465, 489, 345, 56" CvType="InputBox" DesignTimeRectangle="1470, 492, 339, 52" DesignTimeScaleFactor="1.75" ElementType="InputBox" FriendlyName="'INPUT EmployeeEmail'" FullSelectorArgument="&lt;webctrl id='EmployeeEmail' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='EmployeeEmail' tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="1038fa86-9ba5-4d30-acd3-6cc65f64f96e" InformativeScreenshot="fb7b6abba7d6483cd47a7a67138ad658.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='HR On-Boarding Process Form - ExcelCult' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="1292, 504, 170, 24" CvTextArgument="Official Mail Id*" CvType="Text" DesignTimeRectangle="1244, 498, 226, 39" ElementType="Text" FriendlyName="'Official Mail Id*'" FullSelectorArgument="&lt;webctrl aaname='Official Mail Id*' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Official Mail Id*' tag='LABEL' type='' class='' check:innerText='Official Mail Id*' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOYAAAArCAYAAABsHPTRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAGdYAABnWARjRyu0AAAewSURBVHhe7Zv/ZyNNGMDfvzZClFXhNE73WCWOS1llvS5KVXMk/SHl+sOb47ZOzklVeIX2pUqFy6mcc3GWV6jnndn5srPbmXzdpHtvng+juptNJrPzmXnm2ckfQHj4/pP+QRDkmREuopgIkiFQTATJICgmgmQQFBNBMgiKiSAZBMVEkAyCYiJIBkExESSDoJgIkkFQTATJICgmgmQQFHNeRj1oujZY+RzkcqTkPejyUwBjGFxUwdmx2DlSCtslcLwG+Lcj/pqs0IfGS1bHUr3Pj/3m9BtQCtu9BI0Vf6V+vcTu8csGacn02Twxgz74J2WwtwtSnpxVBNttQOfrmL/IQNAB1+LXyOJCOzw5grYbCZkszvth+KrlGEHvrAreSRsGj/zQwswvZtuNvk/hz2g4mspDE2x+XTrSGNphbjEXH5ymi9kGd+L5yWyUmKOrKhTFTGco9kmP3HY9dydF9rq8DbXbhMTdKljhe1jg1LswCNjh4McAbi6a0F66MxLIZxR4Pd3P/NjCLCdmLl8Bn3/Hach2C0sKYpraAcX8/QguXS4OKTse+HcjCMLRdgzB1y4096POY2tv0hDOHXbeOr7hxyJujvls+boFM/bX+SEztrdNPoMMDM1F7naMJcUkpfxhhm/62AVvS70uBTFN7fDMYo5/BaQ3CTRiPgYQTAnKBJshJukcVR6CFvZ9GBnCwH7dZo2dd+D8gR+URDdR1yFFpy29m+8GPx+Li1nY4suAV00yXE3hs8teS65hs1wKYpp4VjH5e20VwTlswc23NhuQXB+G1z40eF6i8Ha2JcBGiBl8rLBGzJehNTEHcwe1IrtRTxswuom6MFKKOecNfj4WF7N0fARl8jeXK5KQnp/UEoD/hl1TJNdUwmv+p2L+24PmayJfLDpIFMuG8kln+mBG2AAxA2i95g3jsjTNJIZnfNbcPgIWsPKQZIEiBJY3Ufv5Yxh8aYC7a0FBrH+3LLDdJvR+8JcIpnS88QMJyT0HSkqCqrBtg3tG1s1PooQlxKzfSOEmJoFk0oeEnFeT6x7c+1BLdGxrx4HqxUAJDzmmdkhdTJ5lfxElCq2dMtQuB9pQVhB860FjT1xTAKfeg8GvGWNYzgaIeQNHdD1CGmmmzOj1EV+LknD2Oz1AwuBiEYpFRRyL/h8v8vEJkUocq16F72gW83EArX0lk5sn16rZYrKGatzz11ImdLwRCRmjRzgFsGgd1AzyLulAMTkXFzP8HlceC03zLrQNSwOZ9HnjQzCh7v1TPhiG78faLyYo+bxYoLMWMUfQPjBn2S2L3yeNmHBfY/V4UWLJxiIZ5A1tZGIDxIxmvJkymcabG93EeUNZk5j9d/w4EfCoO4xmhjER9g3vFJYLHbGkNdXt4RwcLqV9HJ8dx7c1sMW5M3VgWlJMJeyvfNQlgcSAWACPDlCmuivZ7Mpf8dlx9Ekk7Ph7CNYg5uhDOTwusuxDUbHxELp1J0okJsUckf5GB0SepxD32DrozJUURDGTrEvMwIdKKEwBKp80C99H0rF5x5fJJlPdbs/B8zzwDv14J+HoM8bLiqmE/bokkJhRtzzo0oHCUPfhlxqr+2lX03GjZUgsE75yMaNBxzIka3qHvE1jYgakjdhMap/yo499qIWfYYF7ObuaKGaSdYkps5VVZedQnLu6HYZ19ukdOzB3x2Po10PLixkNLskkkJL0OVmu7k8+k7JqMb82+NrYgqNrfiyBvk0JPzpQdckxNXS9rkH5YL5NIShmkjWJKY855zNl6UKmdLzgvhOm5WNrS7WkLaYiYGxGU5M+4rGTXLvr6j6G4XULqnslc1ZznWJe8kFT7up6ilHMlNgAMZdN/ghWJKba4aZh7Hgj6J0oCRSrBM4+CQ9piEhK5aUuUZGGmIRkyEqQ340mfdihKEJI1j2RAKNZ5DKvNy0ODynXKqasK4q5QpZ9XCJYkZhpzJgigUKTSH8/Xa/qO1FKYj5JAon/Ewkbg5jD9w47blWgpdmrrP3MVYuJM+Z6mH2DQXSj0txgoBNT3vwJa0wamvoXPrT/4ZU2dLzuWz4j7uu70WrFjCeBBpoZNEQrZrTN0bRj6lnElGtM8/ugmGmgbMkLn4kZFuFyS566NpKkLOa0rCzptM1X7D1lCG7oeLLzasUcQXt/haEsRUkCFV+w18ikj0ArplIHnZgyo0nKOsVcOCubHpshJkU+LyMl3MQebTgeP9xAy+PykKLfxJ6ymAT1OWZNDUHHA/AP+MP5GZ5jynAwfBbY55vz2Yxb24vWbysTkyDPhUUzsBlCWTnbx57lsmSQyyUPy1rFXOI5ZkpsjpgE+rOvEn/Ybirmn32lL2aY+BAbCWgJd72o/8+484fMLI1dfo2mlHa45LF1c7piyiQQLWrSR2AQUz6QF9eqhbRHSWyHU5/BrkHMMNKYsPPH3uX3FMVMiYV/KL0CMUM0e2VpVvXQh0GyOpM63iP98bALtujkdFvergtNOhPL3y+qM1nKYirhn659jGJSaIRw6EBRPCqhQu5VwSf3Q0YD6pp1LWJSzHtl5fdBMRFkc0AxESSDoJgIkkFQTATJICgmgmQQFBNBMgiKiSAZBMVEkAyCYiJIBkExESSDoJgIkkFQTATJIMxFgP8AdiwUWf+LqOwAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NGetText.Target>
+              </uix:NGetText>
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Employee Details" sap:VirtualizedContainerService.HintSize="388.57142857142856,87.42857142857143" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Employee ID: &quot; + employeeID + vbCrLf +&#xA;&quot;Employee Mail ID: &quot; + employeeEmailID]" />
+            </Sequence>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-12, -12, 2584, 1380" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAN7SURBVFhHxdZfSFNxFAfwOStKl2aJZjZKzUgcWam7d+slovAhC8tqD5X5kIYV6y8FViRE2R+K/mERJZYEUUR/Kcr0Tsv+URBRPpUviQQJkZD/Ur+d33WzeXd2t5XUhQ9sZ+d3zrl3270/Q86W3P+KDQYLtfYUKLZp3GfBYoOB4L4U1eeSDsIld6gUWzleSFFcbiBs0B/AEAZFXktNWwg0WnoVuRBlBiO31h82yIHLakO9/IJprPUS9TY7V4PDBr3hYba5T5Gr+11SH9PMDzW3GvXZZq6mNzYo4E5mBF3u3VSofWhxGf2KjK4aK/rd77trJPTVSUNy3Nqpxh68zozgeghsEC57Np3FJ6agSgzQemMOnlek4815Cz5fn4OeWnYAFQ3aLGpyvXwCAi0q0RbREkM48ydi1YJY9QpwORolXC+fgCCSNYt9NJ5JR5jBAAO5sDOZzdEY3gFuHZiuNhcOFpnZHI2/G4D+CXhXORMVW5PUyx4XM3JwANMYI3Jt41BebMaT0+n0lViHrHULfQDRtOZYGgpyqOG43w0DiRxtxBJ7DK7uS0XP48HfR2gD9NLfajEV4RqMHmXEgXVTsN2RgB2OSTi+KQXRpnA2V0ozoeOhekVCG6DzkRUJ433POjoyHA+OzAA+ngQ6vwDdbUDrXbw6Z0HCBN/88VEj8O1e1p99BU2XMrBuURzmWsZi3qwobFwar8bEZ9tWJmBvYTL2F02Dc3kiftBZivtB6epE+j3EYGFWNDbkxeND1UD+Hw2gp7ZiPk44U1G+PglXymbTjWgum+dleAdAWyPQRZe/6yvQ0QI8XcDn/Ta8A7yvmonDJSk4uTkNby8OXmY9IQzQYMujBT81BYYQt+LKXck45ZyKnzrPAZUi98JlW8r18gl49NRZM+iBVMsWDE0dqBbXQ2CDHuoOqEHKpyIfNUWDQE9TRVouanC1Pdiglro3cMml9Fj12RswxB5gt94ewBsb9AfPbIl0Zpdpa+a7OxqIVdNZT+bW+sMGA+lRJJkGeeY1wHNqLHO5gbDBYABlRhpiDW1AC3BtRTiXEww2qIeOVFLjVkUs5Kb7vYNbo4cN6qHDSsSD5iwpJIdIs/u1hVujhw3qocMzQBPJJ0fJUy43GGxQDx2eAe6RM2QP+U5uk2XcGj1sUA8dsaTYzUFMZLX7vd87nj9s8N/JNfwClv+GPQkjCbMAAAAASUVORK5CYII=" InformativeScreenshot="a52f618245bb6ef2d642f47dea9bed63.jpg" Selector="&lt;html app='msedge.exe' title='HR On-Boarding Process Form - ExcelCult' /&gt;" Title="New tab" Url="https://excelcult.com/hr-on-boarding-process-form/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

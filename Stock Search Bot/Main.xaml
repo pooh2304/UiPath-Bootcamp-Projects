@@ -1,0 +1,173 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="797.7142857142857,1586.857142857143" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Stock Search Automation" sap:VirtualizedContainerService.HintSize="546.2857142857143,1521.7142857142858" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get Stock Details" sap:VirtualizedContainerService.HintSize="484.57142857142856,1411.4285714285713" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="3cedbb2e-83c8-486f-85f0-60f5aa465379" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Stock Search Bot" sap:VirtualizedContainerService.HintSize="450.2857142857143,1191.4285714285713" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="stockName" />
+              <Variable x:TypeArguments="x:String" Name="stockPrice" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input 'Stock Name'" sap:VirtualizedContainerService.HintSize="388.57142857142856,248.57142857142858" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter the Stock Name" Title="Stock Search Bot">
+              <ui:InputDialog.Result>
+                <OutArgument x:TypeArguments="x:String">[stockName]</OutArgument>
+              </ui:InputDialog.Result>
+            </ui:InputDialog>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type 'Stock Name' in Search" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388.57142857142856,222.85714285714286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="3cedbb2e-83c8-486f-85f0-60f5aa465379" Text="[stockName + &quot; Stock Price&quot;]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.google.co.in/" DesignTimeRectangle="816, 552, 777, 47" DesignTimeScaleFactor="1.75" ElementType="InputBox" FriendlyName="'TEXTAREA APjFqb'" FullSelectorArgument="&lt;webctrl id='APjFqb' tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl id='APjFqb' tag='TEXTAREA' type='search' class='gLFyf' aaname='Search' /&gt;" Guid="819200a1-bdad-4df2-9d85-bf36c26b024f" InformativeScreenshot="d59efe0c28dad2e3eb0e5b7686c80e7e.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Google' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search'" sap:VirtualizedContainerService.HintSize="388.57142857142856,198.28571428571428" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3cedbb2e-83c8-486f-85f0-60f5aa465379" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.google.co.in/" CvElementArea="1008, 1180, 226, 69" CvTextArea="1039, 1200, 165, 29" CvTextArgument="Google Search" CvType="Button" DesignTimeRectangle="999, 1251, 221, 63" DesignTimeScaleFactor="1.75" ElementType="Button" FriendlyName="'Google Search'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' class='gNO89b' aaname='Google Search' check:text='Google Search' /&gt;" Guid="e48ee5fb-b8e7-401f-94ba-1af61ed03206" InformativeScreenshot="18ed29d322f63cc1d5365e493d428449.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Google' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArea="811, 530, 254, 36" CvTextArgument="Amazon stock pricel" CvType="Text" DesignTimeRectangle="816, 530, 692, 47" ElementType="InputBox" FriendlyName="'Amazon stock price'" FullSelectorArgument="&lt;webctrl id='APjFqb' tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl id='APjFqb' tag='TEXTAREA' type='search' class='gLFyf' aaname='Search' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get 'Stock Price'" sap:VirtualizedContainerService.HintSize="388.57142857142856,159.42857142857142" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="3cedbb2e-83c8-486f-85f0-60f5aa465379" TextString="[stockPrice]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.google.co.in/search?q=Amazon+Stock+Price+&amp;sca_esv=587304131&amp;source=hp&amp;ei=GkxrZdGJGcng2roPwK2AkAE&amp;iflsig=AO6bgOgAAAAAZWtaKvN-7wUDmK1jcN36iOgz8-O6UlFc&amp;ved=0ahUKEwjR_vfPh_GCAxVJsFYBHcAWABIQ4dUDCAo&amp;oq=Amazon+Stock+Price+&amp;gs_lp=Egdnd3Mtd2l6IhNBbWF6b24gU3RvY2sgUHJpY2UgMgsQABiABBixAxiDATIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjN2QhQjgFYrQJwAXgAkAEAmAG0AaABiAWqAQMwLjS4AQzIAQD4AQGoAgrCAiMQLhiABBiKBRjlAhjlAhjHARjRAxjqAhi0AhiKAxi3AxjUA8ICHRAAGIAEGIoFGOUCGOUCGOoCGLQCGIoDGLcDGNQDwgIREAAYgAQYigUYkQIYsQMYgwE&amp;sclient=gws-wiz" CvTextArea="333, 708, 176, 52" CvType="AnyWordGroup" DesignTimeRectangle="334, 696, 184, 79" DesignTimeScaleFactor="1.75" ElementType="Text" FriendlyName="'147.03'" FullSelectorArgument="&lt;webctrl aaname='147.03' parentid='knowledge-finance-wholepage__entity-summary' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='knowledge-finance-wholepage__entity-summary' tag='SPAN' type='' class='IsqQVc NprOob wT3VGc' /&gt;" Guid="c309d9ce-de8a-4f0b-9fee-c6cf3aa735aa" InformativeScreenshot="9c3ad8cd24949b80767c350751ef526f.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Amazon Stock Price - Google Search' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Output 'Stock Price'" sap:VirtualizedContainerService.HintSize="388.57142857142856,87.42857142857143" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[stockName + &quot; Stock Price = &quot; + stockPrice.ToString]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-12, -12, 2584, 1380" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAGdYAABnWARjRyu0AAARHSURBVFhHvZddbBRVFMf7YrAq+OSbD6Kgb0qUUh60xq9VtA8k1EJrH1CsGIM+GLUmBA0kFi0WSMCHLcVCTMO2GmjFCiUFpH60sUjMEtIGLaAWama32w92dt2vOf7PndPd3M7sdmobf8k/M/fec8//zJ07s7NFXrEsawlUnclkmqEBaAxKisLS14yYKo6VafMHyR5A4hYoTh5BbAw6iLnLJc3cQZ7bkKQRSttp5w7mpqBdKKRY0noDE+7HxEuSZ94gVxA5l0n6wiDwYUwIyVyN9I0RMls/p4l33qDwi8+R4VtNxjOlFF7no/G3XyfzcBOlR/6UaB3kNHBYITbuyJU7zNOj12ly+/tkPL2KjKdKCgsxkx++p+bMhIvIuxIYuB0BjmWPn+qi0Atl7mYFFCp/nP45e0qy5IAH3w7nnsBAo8RkMY8cck3uVVMN2yWTDrwaxNYGFfGjpu12vnK3pKxIbRVFD+yj+DdHKd51DOf7KfJatRYztbueyLIkmw68UtqtQEeLjCl4s4Wef0xLyBqrWUuJ8/0S5SQx0EfhDeV0c/+n0pMfeDYrc5zfiYb2konufdNhPr7lZbKmpiQiP5YZlbPCwNPEKizm5a+WPoUVG6ZU9yKarLsna86PXGYiIhELB7zX8/I3S1uRuVpPqZ5blMx9d1FozUqKnzwuowsLvP1cwIC0FelffNkCWImjS4lSKRldWODdzwWMSVuR6r1bKyB9sUpG3Hnyo6hnnb2kXwi8DS4gKW1F6vQirYDM79tkxB03o3xq/VGz4gIS/2sBLecSMstmuoCwtBWOWxDcICPuuBnlU3u/YwXULdA34YVntQJGeh+kZGbum/CKkXEUcG7QsQfUJpzxGH6cNT/etZQeDayljuEeGfVOoC/pKGB0Qn81w9vPLyJtm1uxqxTrKab6jkdoZWCdkq/jFQrHxyVidm7GLarYa2rmG/0xGc0B70ouYAkq0Ub39O3Imk+rpvtdmkjM/ipO4iet7khcM2e1Oe+/icMd6vcAjYN2t82NqEFlX73kKKL8683Ue/28RDm5PH6NNnUGYDipmfNqxBKO5W9S5gxWYTk6tB1y4lqvo4BpVXz7FjVeaKH2yyfoy99O0mfBVnq1ZyuVBCrUeOmhOnrik7+yBXw/pH/XwisJz/vE3gadu2Q8yxdDnQ5zrypp3Uhlu392PPsMvHaKbQ7082f4RTskR/cfP+B21LiaFFJpWyUdCHZKlhzw+BWHW8VWB8uyDAH89aoxaoZo6097aFWbvcSzafOZD2gwMiyzcyD33zjcK3buIGCFWxEMb87Dg8doy3c7aE1nLa1ur1RX6uvYRLWnt6m9MBS5ItE6bI4LfEhsCiMrEZS58wa5eNkLX/lMUEQxJjZA//ljAHP5j+tOnLrfcy/IavA/Yn5xeIJjoSbM1R+1+YBki6H1SOyH+iEDSoj4nPv8iKlEDfYbblaKiv4FoeF/NqqvoEMAAAAASUVORK5CYII=" InformativeScreenshot="b9cdd7652baa8bfb3c68ebea4a52d3c7.jpg" Selector="&lt;html app='msedge.exe' title='Google' /&gt;" Title="Google" Url="https://www.google.co.in/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
