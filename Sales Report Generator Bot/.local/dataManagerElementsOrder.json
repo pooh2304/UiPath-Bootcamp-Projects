@@ -19,16 +19,6 @@
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
-    },
-    {
-      "Path": "Test.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [
-        "str&Sequence_2"
-      ],
-      "ArgumentsSectionElementsOrder": [],
-      "ConstantsSectionElementsOrder": [],
-      "AddedNamespaces": null
     }
   ]
 }
