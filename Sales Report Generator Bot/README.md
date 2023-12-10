@@ -5,6 +5,6 @@ The **Sales Report Generator Bot** is a UiPath automation designed to streamline
 ![Sales Report Generation Process Flow](https://github.com/pooh2304/UiPath-Projects/assets/51374683/ce88b9b8-d619-41a1-9d80-91dca8efc1bf)
 
 
-To get all the files present in a directory: Directory.GetFiles("directoryName")  
-To get full path of the file: Path.GetFullPath(“fileName”)  
-To get full path of the directory: Environment.CurrentDirectory + "\directoryName"
+To get all the files present in a directory: Directory.GetFiles("directoryName")  <br>
+To get full path of the file: Path.GetFullPath(“fileName”)  <br>
+To get full path of the directory: Environment.CurrentDirectory + "\directoryName" 
