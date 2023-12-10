@@ -7,5 +7,6 @@
 4. Sales Report Generator Bot
 
 ### Intermediate Level Projects
+1. Dynamic Form Data Entry Automation Challenge (Using REFramework)
 
 ### Advanced Level Projects
