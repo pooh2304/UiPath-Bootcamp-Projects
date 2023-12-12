@@ -7,6 +7,7 @@
 4. HR Onboarding Process Bot
 5. Dynamic Form Data Entry Automation Challenge
 6. Sales Report Generator Bot
+7. Data Service
 
 ### Intermediate Level Projects
 1. Dynamic Form Data Entry Automation Challenge (Using REFramework) - In Progress
