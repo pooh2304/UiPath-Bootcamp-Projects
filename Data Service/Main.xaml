@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="797.7142857142857,560" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="797.7142857142857,560" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:d="clr-namespace:Data_Service;assembly=DataService.Data_Service" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uda="clr-namespace:UiPath.DataService.Activities;assembly=UiPath.DataService.Activities.Core" xmlns:udam="clr-namespace:UiPath.DataService.Activities.Models;assembly=UiPath.DataService.Activities.Core" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -26,6 +26,11 @@
       <x:String>GlobalVariablesNamespace</x:String>
       <x:String>GlobalConstantsNamespace</x:String>
       <x:String>System.Reflection</x:String>
+      <x:String>UiPath.DataService.Activities</x:String>
+      <x:String>UiPath.DataService.Definition</x:String>
+      <x:String>UiPath.DataService.Activities.Models</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>Data_Service</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -59,24 +64,45 @@
       <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>netstandard</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Activities.Core</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Definition</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>DataService.Data_Service</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="496,195.42857142857142" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="450.2857142857143,340.57142857142856" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Name="Invoice" />
+      <Variable x:TypeArguments="x:String" Name="invoice" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign sap:VirtualizedContainerService.HintSize="434.2857142857143,85.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_1">
-      <Assign.To>
-        <OutArgument x:TypeArguments="x:String">[Invoice]</OutArgument>
-      </Assign.To>
-      <Assign.Value>
-        <InArgument x:TypeArguments="x:String">[new DataService.Invoice]</InArgument>
-      </Assign.Value>
-    </Assign>
+    <uda:CreateEntityRecord x:TypeArguments="d:Invoice" InputEntity="{x:Null}" IsInRecordView="{x:Null}" OutputEntity="{x:Null}" VisibleDynamicPropertiesInfo="{x:Null}" ContinueOnError="False" DisplayName="Create Entity Record" EntityId="8cd3b2df-da98-ee11-8923-000d3a64ace6" ExpansionDepth="2" sap:VirtualizedContainerService.HintSize="388.57142857142856,230.28571428571428" sap2010:WorkflowViewState.IdRef="CreateEntityRecord`1_1" InputEntityInFieldView="[new Data_Service.Invoice() With {  .InvoiceID = &quot;123&quot;,  .SupplierName = &quot;Supplier A&quot; }]" TimeoutInMs="30000">
+      <uda:CreateEntityRecord.State>
+        <udam:RecordState RequiredFieldCount="1">
+          <udam:RecordState.SelectedFields>
+            <scg:List x:TypeArguments="udam:DynamicEntityField" Capacity="2">
+              <udam:DynamicEntityField Id="c4d299a8-df98-ee11-8923-000d3a64ace6" IsRequired="True" Name="InvoiceID">
+                <udam:DynamicEntityField.ArgumentValue>
+                  <InArgument x:TypeArguments="x:String">123</InArgument>
+                </udam:DynamicEntityField.ArgumentValue>
+              </udam:DynamicEntityField>
+              <udam:DynamicEntityField Id="7344a47f-dc98-ee11-8923-000d3a64ace6" Name="SupplierName">
+                <udam:DynamicEntityField.ArgumentValue>
+                  <InArgument x:TypeArguments="x:String">Supplier A</InArgument>
+                </udam:DynamicEntityField.ArgumentValue>
+              </udam:DynamicEntityField>
+            </scg:List>
+          </udam:RecordState.SelectedFields>
+        </udam:RecordState>
+      </uda:CreateEntityRecord.State>
+    </uda:CreateEntityRecord>
   </Sequence>
 </Activity>

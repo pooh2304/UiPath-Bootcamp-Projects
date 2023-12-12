@@ -5,14 +5,19 @@
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.DataService.Activities": "[23.10.0]",
-    "UiPath.Excel.Activities": "[2.22.3]",
-    "UiPath.Mail.Activities": "[1.21.1]",
     "UiPath.System.Activities": "[23.10.3]",
     "UiPath.Testing.Activities": "[23.10.0]",
     "UiPath.UIAutomation.Activities": "[23.10.6]"
   },
   "webServices": [],
-  "entitiesStores": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "DefaultTenant",
+      "namespace": "Data_Service",
+      "uniqueReference": "t9b3Ux+77BzVUoBOx9x96/+CTECr21rzxPg/gCpBQ/o="
+    }
+  ],
   "schemaVersion": "4.0",
   "studioVersion": "23.10.1.0",
   "projectVersion": "1.0.0",
