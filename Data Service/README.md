@@ -13,4 +13,4 @@
 6. Import the newly created entity into your UiPath Studio workspace by selecting it in the "Manage Entities" section.
 
 ### Objective
-To upload new data records into the **Invoice** Entity using the **Data Service** package activities.
+To add new data records into the **Invoice** Entity using the **Data Service** package activities.
