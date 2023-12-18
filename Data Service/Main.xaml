@@ -84,11 +84,11 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uda:CreateEntityRecord x:TypeArguments="d:Invoice" InputEntity="{x:Null}" IsInRecordView="{x:Null}" OutputEntity="{x:Null}" VisibleDynamicPropertiesInfo="{x:Null}" ContinueOnError="False" DisplayName="Create Entity Record" EntityId="8cd3b2df-da98-ee11-8923-000d3a64ace6" ExpansionDepth="2" sap:VirtualizedContainerService.HintSize="388.57142857142856,230.28571428571428" sap2010:WorkflowViewState.IdRef="CreateEntityRecord`1_1" InputEntityInFieldView="[new Data_Service.Invoice() With {  .InvoiceID = &quot;123&quot;,  .SupplierName = &quot;Supplier A&quot; }]" TimeoutInMs="30000">
+    <uda:CreateEntityRecord x:TypeArguments="d:Invoice" InputEntity="{x:Null}" IsInRecordView="{x:Null}" OutputEntity="{x:Null}" VisibleDynamicPropertiesInfo="{x:Null}" ContinueOnError="False" DisplayName="Create Entity Record" EntityId="8cd3b2df-da98-ee11-8923-000d3a64ace6" ExpansionDepth="2" sap:VirtualizedContainerService.HintSize="388.57142857142856,230.28571428571428" sap2010:WorkflowViewState.IdRef="CreateEntityRecord`1_1" InputEntityInFieldView="[new Data_Service.Invoice() With {  .InvoiceID = &quot;125&quot;,  .SupplierName = &quot;Supplier A&quot; }]" TimeoutInMs="30000">
       <uda:CreateEntityRecord.State>
         <udam:RecordState RequiredFieldCount="1">
           <udam:RecordState.SelectedFields>
-            <scg:List x:TypeArguments="udam:DynamicEntityField" Capacity="4">
+            <scg:List x:TypeArguments="udam:DynamicEntityField" Capacity="2">
               <udam:DynamicEntityField Id="c4d299a8-df98-ee11-8923-000d3a64ace6" IsRequired="True" Name="InvoiceID">
                 <udam:DynamicEntityField.ArgumentValue>
                   <InArgument x:TypeArguments="x:String">125</InArgument>
