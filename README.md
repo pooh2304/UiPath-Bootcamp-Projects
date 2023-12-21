@@ -9,9 +9,9 @@
 6. [HR Onboarding Process Bot](https://github.com/pooh2304/UiPath-Projects/tree/main/HR%20Onboarding%20Process%20Bot) 
 7. [Dynamic Form Data Entry Automation Challenge](https://github.com/pooh2304/UiPath-Projects/tree/main/Dynamic%20Form%20Data%20Entry%20Automation%20Challenge) 
 8. [Sales Report Generator Bot](https://github.com/pooh2304/UiPath-Projects/tree/main/Sales%20Report%20Generator%20Bot) 
-9. [Clothing Consultant Bot](https://github.com/pooh2304/UiPath-Projects/tree/main/Clothing%20Consultant%20Bot) - In Progress 
+9. [Clothing Consultant Bot](https://github.com/pooh2304/UiPath-Projects/tree/main/Clothing%20Consultant%20Bot) 
 
 ### Intermediate Level Projects
-1. [Dynamic Form Data Entry Automation Challenge (Using REFramework)](https://github.com/pooh2304/UiPath-Projects/tree/main/Dynamic%20Form%20Data%20Entry%20Automation%20Challenge_Using%20REFramework) - In Progress 
+1. [Dynamic Form Data Entry Automation Challenge (Using REFramework)](https://github.com/pooh2304/UiPath-Projects/tree/main/Dynamic%20Form%20Data%20Entry%20Automation%20Challenge_Using%20REFramework)
 
 ### Advanced Level Projects
