@@ -1,7 +1,7 @@
 {
   "name": "My First Robot",
   "projectId": "a885ae72-054f-4a52-bdde-44b1f822cd73",
-  "description": "Blank Process",
+  "description": "Leon Petrou",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.System.Activities": "[23.10.3]",
