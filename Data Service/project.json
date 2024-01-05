@@ -1,7 +1,7 @@
 {
   "name": "Data Service",
   "projectId": "4f08c2ea-768a-4056-87c4-ba5a17637106",
-  "description": "Blank Process",
+  "description": "Leon Petrou",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.DataService.Activities": "[23.10.0]",
