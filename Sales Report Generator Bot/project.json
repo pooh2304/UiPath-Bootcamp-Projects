@@ -1,7 +1,7 @@
 {
   "name": "Sales Report Generator Bot",
   "projectId": "4e65be56-8427-48fe-b60c-3c24f374bbf8",
-  "description": "Blank Process",
+  "description": "Sharath Raju",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.22.2]",
