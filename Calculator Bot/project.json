@@ -1,7 +1,7 @@
 {
   "name": "Calculator Bot",
   "projectId": "9a43971e-cbd3-49e0-b727-2464ca80552e",
-  "description": "Blank Process",
+  "description": "Leon Petrou",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.System.Activities": "[23.10.3]",
