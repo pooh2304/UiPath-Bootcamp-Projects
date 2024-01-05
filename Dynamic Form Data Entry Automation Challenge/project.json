@@ -1,7 +1,7 @@
 {
   "name": "Dynamic Form Data Entry Automation Challenge",
   "projectId": "71014dc2-63b6-4634-a7b6-ce43160d95f0",
-  "description": "Blank Process",
+  "description": "Sharath Raju",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.22.2]",
