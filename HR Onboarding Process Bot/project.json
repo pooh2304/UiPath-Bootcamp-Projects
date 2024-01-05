@@ -1,7 +1,7 @@
 {
   "name": "HR Onboarding Process Bot",
   "projectId": "dec47bcd-81ca-4f71-b45b-5264150866ab",
-  "description": "Blank Process",
+  "description": "Sharath Raju",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.System.Activities": "[23.10.2]",
