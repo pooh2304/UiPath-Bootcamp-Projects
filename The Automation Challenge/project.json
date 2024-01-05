@@ -1,7 +1,7 @@
 {
   "name": "The Automation Challenge",
   "projectId": "cad7ecff-a93b-4280-b50c-9c5ec5b7117a",
-  "description": "Blank Process",
+  "description": "Leon Petrou",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.23.0-preview]",
