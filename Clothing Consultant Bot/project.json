@@ -1,7 +1,7 @@
 {
   "name": "Clothing Consultant Bot",
   "projectId": "c86b6725-88cf-436f-9332-6379b54b9819",
-  "description": "Blank Process",
+  "description": "Leon Petrou",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.System.Activities": "[23.10.3]",
