@@ -1,7 +1,7 @@
 {
   "name": "Cylinder Volume Calculator Bot",
   "projectId": "b8914cfa-1c46-4e71-8fc0-add056c67a4e",
-  "description": "Blank Process",
+  "description": "Leon Petrou",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.System.Activities": "[23.10.3]",
