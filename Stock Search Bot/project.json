@@ -1,7 +1,7 @@
 {
   "name": "Stock Search Bot",
   "projectId": "29266783-4fde-4736-9d12-a899e31603bd",
-  "description": "Blank Process",
+  "description": "Sharath Raju",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.System.Activities": "[23.10.2]",
