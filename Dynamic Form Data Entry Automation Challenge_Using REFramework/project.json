@@ -1,7 +1,7 @@
 {
   "name": "Dynamic Form Data Entry Automation Challenge_Using REFramework",
   "projectId": "80c1b0fc-21a1-4635-b88f-39f413da433a",
-  "description": "Robotic Enterprise Framework",
+  "description": "Robotic Enterprise Framework - Sharath Raju",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.22.3]",
