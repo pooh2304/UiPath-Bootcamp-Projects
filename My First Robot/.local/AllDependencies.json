@@ -18065,15 +18065,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pooja_byiltwr\\.nuget\\packages\\": {}
+    "C:\\Users\\pooja\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "My First Robot",
       "projectName": "My First Robot",
-      "projectPath": "C:\\Users\\pooja_byiltwr\\OneDrive\\Documents\\UiPath-Projects\\My First Robot\\.local",
-      "packagesPath": "C:\\Users\\pooja_byiltwr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pooja_byiltwr\\OneDrive\\Documents\\UiPath-Projects\\My First Robot\\.local"
+      "projectPath": "C:\\Users\\pooja\\Documents\\RPA\\UiPath-Bootcamp-Projects\\My First Robot\\.local",
+      "packagesPath": "C:\\Users\\pooja\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pooja\\Documents\\RPA\\UiPath-Bootcamp-Projects\\My First Robot\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -18094,7 +18094,7 @@
             "version": "[23.10.6, 23.10.6]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\pooja_byiltwr\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\pooja\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
