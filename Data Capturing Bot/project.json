@@ -1,7 +1,7 @@
 {
   "name": "Data Capturing Bot",
   "projectId": "f013bcd3-fa53-4e8e-96a7-61aca26a89d1",
-  "description": "Blank Process",
+  "description": "Leon Petrou",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.23.0-preview]",
