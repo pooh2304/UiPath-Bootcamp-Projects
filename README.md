@@ -12,6 +12,7 @@
 9. [Clothing Consultant Bot](https://github.com/pooh2304/UiPath-Projects/tree/main/Clothing%20Consultant%20Bot)
 10. [Data Capturing Bot](https://github.com/pooh2304/UiPath-Projects/tree/main/Data%20Capturing%20Bot)
 11. [The Automation Challenge](https://github.com/pooh2304/UiPath-Projects/tree/main/The%20Automation%20Challenge)
+12. [Real Estate Web Scraping Bot](https://github.com/pooh2304/UiPath-Bootcamp-Projects/tree/main/Real%20Estate%20Web%20Scraping%20Bot)
 
 ### Intermediate Level Projects
 1. [Dynamic Form Data Entry Automation Challenge (Using REFramework)](https://github.com/pooh2304/UiPath-Projects/tree/main/Dynamic%20Form%20Data%20Entry%20Automation%20Challenge_Using%20REFramework)
