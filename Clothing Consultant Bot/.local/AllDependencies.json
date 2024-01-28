@@ -18065,15 +18065,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pooja_byiltwr\\.nuget\\packages\\": {}
+    "C:\\Users\\pooja\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Clothing Consultant Bot",
       "projectName": "Clothing Consultant Bot",
-      "projectPath": "C:\\Users\\pooja_byiltwr\\OneDrive\\Documents\\UiPath-Projects\\Clothing Consultant Bot\\.local",
-      "packagesPath": "C:\\Users\\pooja_byiltwr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pooja_byiltwr\\OneDrive\\Documents\\UiPath-Projects\\Clothing Consultant Bot\\.local"
+      "projectPath": "C:\\Users\\pooja\\Documents\\RPA\\UiPath-Bootcamp-Projects\\Clothing Consultant Bot\\.local",
+      "packagesPath": "C:\\Users\\pooja\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pooja\\Documents\\RPA\\UiPath-Bootcamp-Projects\\Clothing Consultant Bot\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -18094,7 +18094,7 @@
             "version": "[23.10.7, 23.10.7]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\pooja_byiltwr\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\pooja\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {

@@ -18067,15 +18067,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pooja_byiltwr\\.nuget\\packages\\": {}
+    "C:\\Users\\pooja\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Stock Search Bot",
       "projectName": "Stock Search Bot",
-      "projectPath": "C:\\Users\\pooja_byiltwr\\OneDrive\\Documents\\UiPath-Projects\\Stock Search Bot\\.local",
-      "packagesPath": "C:\\Users\\pooja_byiltwr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pooja_byiltwr\\OneDrive\\Documents\\UiPath-Projects\\Stock Search Bot\\.local"
+      "projectPath": "C:\\Users\\pooja\\Documents\\RPA\\UiPath-Bootcamp-Projects\\Stock Search Bot\\.local",
+      "packagesPath": "C:\\Users\\pooja\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pooja\\Documents\\RPA\\UiPath-Bootcamp-Projects\\Stock Search Bot\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -18096,7 +18096,7 @@
             "version": "[23.10.3, 23.10.3]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\pooja_byiltwr\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\pooja\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {

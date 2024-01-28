@@ -1,5 +1,9 @@
 {
-  "Tags": [],
+  "Tags": [
+    {
+      "Key": "Future-RPA"
+    }
+  ],
   "SeparateRuntimeDependencies": true,
   "IncludeSources": true
 }

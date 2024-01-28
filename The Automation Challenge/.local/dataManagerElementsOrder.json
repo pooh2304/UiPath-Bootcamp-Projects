@@ -12,11 +12,11 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "reCAPTCHATimeOut&Sequence_1",
-        "IsClicked&Sequence_1",
-        "Timeout&Sequence_1",
+        "dt_CompanyData&Sequence_1",
         "StringDT&Sequence_1",
-        "dt_CompanyData&Sequence_1"
+        "Timeout&Sequence_1",
+        "reCAPTCHATimeOut&Sequence_1",
+        "IsClicked&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
